@@ -13,6 +13,9 @@
 		FCF95ED51CA31A3700086CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF95ED31CA31A3700086CC7 /* Main.storyboard */; };
 		FCF95ED71CA31A3700086CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF95ED61CA31A3700086CC7 /* Assets.xcassets */; };
 		FCF95EDA1CA31A3700086CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF95ED81CA31A3700086CC7 /* LaunchScreen.storyboard */; };
+		FCF95EF81CA31BCB00086CC7 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF95EF71CA31BCB00086CC7 /* MyCollectionViewCell.m */; };
+		FCF95EFB1CA3202200086CC7 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF95EFA1CA3202200086CC7 /* Photo.m */; };
+		FCF95EFE1CA326BB00086CC7 /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF95EFD1CA326BB00086CC7 /* HeaderCollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		FCF95ED61CA31A3700086CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCF95ED91CA31A3700086CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCF95EDB1CA31A3700086CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF95EF61CA31BCB00086CC7 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		FCF95EF71CA31BCB00086CC7 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		FCF95EF91CA3202200086CC7 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		FCF95EFA1CA3202200086CC7 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		FCF95EFC1CA326BB00086CC7 /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		FCF95EFD1CA326BB00086CC7 /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +70,16 @@
 				FCF95ECD1CA31A3700086CC7 /* AppDelegate.h */,
 				FCF95ECE1CA31A3700086CC7 /* AppDelegate.m */,
 				FCF95ED01CA31A3700086CC7 /* ViewController.h */,
+				FCF95EFC1CA326BB00086CC7 /* HeaderCollectionReusableView.h */,
+				FCF95EFD1CA326BB00086CC7 /* HeaderCollectionReusableView.m */,
 				FCF95ED11CA31A3700086CC7 /* ViewController.m */,
+				FCF95EF61CA31BCB00086CC7 /* MyCollectionViewCell.h */,
+				FCF95EF71CA31BCB00086CC7 /* MyCollectionViewCell.m */,
+				FCF95EF91CA3202200086CC7 /* Photo.h */,
+				FCF95EFA1CA3202200086CC7 /* Photo.m */,
 				FCF95ED31CA31A3700086CC7 /* Main.storyboard */,
 				FCF95ED61CA31A3700086CC7 /* Assets.xcassets */,
+				FCF95EF51CA31B8B00086CC7 /* Images */,
 				FCF95ED81CA31A3700086CC7 /* LaunchScreen.storyboard */,
 				FCF95EDB1CA31A3700086CC7 /* Info.plist */,
 				FCF95ECA1CA31A3700086CC7 /* Supporting Files */,
@@ -77,6 +93,13 @@
 				FCF95ECB1CA31A3700086CC7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCF95EF51CA31B8B00086CC7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF95EFE1CA326BB00086CC7 /* HeaderCollectionReusableView.m in Sources */,
 				FCF95ED21CA31A3700086CC7 /* ViewController.m in Sources */,
 				FCF95ECF1CA31A3700086CC7 /* AppDelegate.m in Sources */,
+				FCF95EF81CA31BCB00086CC7 /* MyCollectionViewCell.m in Sources */,
+				FCF95EFB1CA3202200086CC7 /* Photo.m in Sources */,
 				FCF95ECC1CA31A3700086CC7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

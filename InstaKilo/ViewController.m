@@ -7,8 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "Photo.h"
 
-@interface ViewController ()
+@interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+
+#pragma mark - Properties -
+
+@property (nonatomic) UICollectionViewFlowLayout *flowLayout;
+@property (nonatomic)NSArray *photoArray;
+
+@property (nonatomic) NSDictionary *data;
+@property (nonatomic) NSDictionary *locationsDictionary;
+@property (nonatomic) NSDictionary *subjectsDictionary;
+
 
 @end
 
@@ -16,7 +29,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.photoArray = [Photo photoArray];
+    [self setupFlowLayout];
+    
+    self.data = [self unsortedPhotos];
+    [self.collectionView reloadData];
+     
+     
 }
 
 - (void)didReceiveMemoryWarning {
