@@ -8,6 +8,25 @@
 
 #import "MyCollectionViewCell.h"
 
+@interface MyCollectionViewCell ()
+
+
+@property (weak, nonatomic) IBOutlet UIImageView *iMAGE;
+
+@end
+
 @implementation MyCollectionViewCell
+
+-(void)setObject:(Photo *)object
+{
+    _object = object;
+    [self setUp];
+}
+
+-(void)setUp
+{
+    self.iMAGE.image = self.object.image;
+}
+
 
 @end

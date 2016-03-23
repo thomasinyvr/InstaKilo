@@ -10,4 +10,6 @@
 
 @interface HeaderCollectionReusableView : UICollectionReusableView
 
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+
 @end

@@ -69,9 +69,9 @@
 			children = (
 				FCF95ECD1CA31A3700086CC7 /* AppDelegate.h */,
 				FCF95ECE1CA31A3700086CC7 /* AppDelegate.m */,
-				FCF95ED01CA31A3700086CC7 /* ViewController.h */,
 				FCF95EFC1CA326BB00086CC7 /* HeaderCollectionReusableView.h */,
 				FCF95EFD1CA326BB00086CC7 /* HeaderCollectionReusableView.m */,
+				FCF95ED01CA31A3700086CC7 /* ViewController.h */,
 				FCF95ED11CA31A3700086CC7 /* ViewController.m */,
 				FCF95EF61CA31BCB00086CC7 /* MyCollectionViewCell.h */,
 				FCF95EF71CA31BCB00086CC7 /* MyCollectionViewCell.m */,
